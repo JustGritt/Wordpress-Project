@@ -15,7 +15,25 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 ?>
 
 <?php if ( has_custom_logo() && $show_title ) : ?>
-	<div class="site-logo"><?php the_custom_logo(); ?></div>
+	<div class="site-logo"><?php the_custom_logo(); ?>
+
+	<?php
+		wp_nav_menu(
+			array(
+				'theme_location'  => 'primary',
+				'menu_class'      => 'menu-wrapper',
+				'container_class' => 'primary-menu-container',
+				'items_wrap'      => '<ul id="primary-menu-list" class="%2$s">%3$s</ul>',
+				'fallback_cb'     => false,
+			)
+		);
+		?>
+
+	</div>
+
+	<img src="/wp-content/ESGI_Custom/assets/images/hamburger.svg" alt="Hamburger menu picto">
+	
+	
 <?php endif; ?>
 
 <div class="site-branding">

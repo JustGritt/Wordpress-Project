@@ -95,6 +95,7 @@ ESGI-Custom is distributed under the terms of the GNU GPL.
  */
 
 /* Categories 01 to 03 are the basics. */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 /* Variables */
 :root {
@@ -1004,10 +1005,10 @@ template {
  * .entry-content children specific controls
  * - Adds special margin overrides for alignment utility classes
  */
-.entry-content > * {
+/* .entry-content > * {
 
 	/* Reset alignleft and alignright margins after alignfull */
-}
+/* }  */
 
 .entry-content > *.alignleft,
 .entry-content > *.alignright,
@@ -2736,12 +2737,12 @@ dd {
 	padding-left: calc(2 * var(--global--spacing-horizontal));
 }
 
-.wp-block-media-text {
+/* .wp-block-media-text { */
 
 	/**
    * Block Options
    */
-}
+/* } */
 
 .wp-block-media-text.alignfull {
 	margin-top: 0;
@@ -3875,6 +3876,190 @@ table.wp-calendar-table caption {
 	margin: calc(var(--global--spacing-vertical) / 2) 0;
 }
 
+/* ========== Header ========== */
+
+nav.hamburger-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	max-height: 135px;
+	height: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+}
+
+#menu-logo {
+	width: 117px;
+	height: 36px;
+	z-index: 1;
+}
+
+.button_container {
+	position: fixed;
+	top: 5%;
+	right: 160px;
+	height: 30px;
+	width: 40px;
+	cursor: pointer;
+	z-index: 100;
+	transition: opacity 0.25s ease;
+}
+
+.button_container:hover {
+	opacity: 0.7;
+}
+
+.button_container.active .top {
+	transform: translateY(11px) translateX(21px) rotate(45deg);
+	background: #FFF;
+	width: 21px;
+}
+
+.button_container.active .bottom {
+	transform: translateY(0px) translateX(2px) rotate(-45deg);
+	background: #FFF;
+	width: 21px;
+}
+
+.button_container span {
+	background: #050A3A;
+	border: none;
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.35s ease;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.button_container span:nth-of-type(2) {
+	top: 11px;
+	right: 0;
+	margin-left: auto;
+	width: 50%;
+}
+
+.overlay {
+	position: fixed;
+	background: #050A3A;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+	overflow: hidden;
+}
+
+.overlay.open {
+	opacity: .95;
+	visibility: visible;
+	max-height: 820px;
+	height: 100%;
+}
+
+.overlay.open li {
+	animation: fadeInRight 0.5s ease forwards;
+	animation-delay: 0.35s;
+}
+
+.overlay.open li:nth-of-type(2) {
+	animation-delay: 0.4s;
+}
+
+.overlay.open li:nth-of-type(3) {
+	animation-delay: 0.45s;
+}
+
+.overlay.open li:nth-of-type(4) {
+	animation-delay: 0.5s;
+}
+
+.overlay nav {
+	position: relative;
+	height: 70%;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 50px;
+	font-family: 'Varela Round', serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.overlay ul {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+	list-style: none;
+}
+
+.overlay .primary-menu-container {
+	margin-right: 160px;
+}
+
+
+
+.overlay ul li {
+	display: block;
+	height: 25%;
+	height: calc(100% / 4);
+	min-height: 50px;
+	position: relative;
+	opacity: 0;
+}
+
+.overlay ul li a {
+	display: block;
+	position: relative;
+	color: #FFF;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.overlay ul li a:hover:after,
+.overlay ul li a:focus:after,
+.overlay ul li a:active:after {
+	width: 100%;
+}
+
+.overlay ul li a:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0%;
+	transform: translateX(-50%);
+	height: 3px;
+	background-image: linear-gradient(to right, #ffd0a8, #ffb292, #ff9190, #ff6da0, #ff4fc0);
+	transition: 0.35s;
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		left: 20%;
+	}
+
+	100% {
+		opacity: 1;
+		left: 0;
+	}
+}
+
+/* ========== Header ========== */
+
 .site-header > .site-logo {
 	width: 100%;
 	padding-bottom: calc(var(--global--spacing-vertical) * 1.5);
@@ -3900,6 +4085,52 @@ table.wp-calendar-table caption {
 		width: auto;
 	}
 }
+
+.site-logo > .primary-menu-container  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: calc(var(--global--spacing-vertical) / 2);
+	flex-direction: row;
+}
+
+.site-logo > .primary-menu-container .menu-wrapper {
+	list-style: none;
+}
+
+/* .site-logo > .primary-menu-container .menu-wrapper li {
+	justify-content: flex-end;
+	display: flex;
+}
+
+.site-logo > .primary-menu-container .menu-wrapper li a {
+	font-family: Mulish, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 70px;
+	position: relative;
+	width: fit-content;
+	text-align: right;
+}
+
+.site-logo > .primary-menu-container .menu-wrapper li a::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	right: 0;
+	height: 5px;
+	background-image: linear-gradient(to right, #ffd0a8, #ffb393, #ff9190, #ff6ea1, #ff51c0);
+	border-radius: 8px;
+	transition: all .4s ease-in-out;
+}
+
+.site-logo > .primary-menu-container .menu-wrapper li a:hover::after {
+	width: 100%;
+} */
 
 @media only screen and (max-width: 481px) {
 
