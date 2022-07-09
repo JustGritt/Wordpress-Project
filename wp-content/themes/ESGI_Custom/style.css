@@ -95,7 +95,7 @@ ESGI-Custom is distributed under the terms of the GNU GPL.
  */
 
 /* Categories 01 to 03 are the basics. */
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&display=swap');
 
 /* Variables */
 :root {
@@ -276,8 +276,8 @@ ESGI-Custom is distributed under the terms of the GNU GPL.
 	--pagination--font-weight-strong: 600;
 
 	/* Footer */
-	--footer--color-text: var(--global--color-primary);
-	--footer--color-link: var(--global--color-primary);
+	--footer--color-text: #fff;
+	--footer--color-link: #fff;
 	--footer--color-link-hover: var(--global--color-primary-hover);
 	--footer--font-family: var(--global--font-primary);
 	--footer--font-size: var(--global--font-size-sm);
@@ -3965,6 +3965,27 @@ nav.hamburger-menu {
 	height: 100%;
 }
 
+.overlay input[name="search"] {
+	position: absolute;
+	top: 130px;
+	left: calc(50px - 8px);
+	padding: 0 8px;
+	max-width: 300px;
+	width: 100%;
+	font-weight: 600;
+	z-index: 1;
+	color: #fff;
+	border: none;
+	outline: none;
+	background: transparent;
+	transition: none;
+}
+
+.overlay.open input::placeholder {
+	color: #fff;
+	font-weight: 600;
+}
+
 .overlay.open li {
 	animation: fadeInRight 0.5s ease forwards;
 	animation-delay: 0.35s;
@@ -3982,13 +4003,20 @@ nav.hamburger-menu {
 	animation-delay: 0.5s;
 }
 
+.overlay.open li:nth-of-type(5) {
+	animation-delay: 0.55s;
+}
+
+.overlay.open li:nth-of-type(6) {
+	animation-delay: 0.6s;
+}
+
 .overlay nav {
 	position: relative;
 	height: 70%;
 	top: 50%;
 	transform: translateY(-50%);
 	font-size: 50px;
-	font-family: 'Varela Round', serif;
 	font-weight: 400;
 	text-align: center;
 }
@@ -4009,12 +4037,10 @@ nav.hamburger-menu {
 	margin-right: 160px;
 }
 
-
-
 .overlay ul li {
 	display: block;
 	height: 25%;
-	height: calc(100% / 4);
+	height: calc(100% / 6);
 	min-height: 50px;
 	position: relative;
 	opacity: 0;
@@ -4038,27 +4064,62 @@ nav.hamburger-menu {
 	content: '';
 	position: absolute;
 	bottom: 0;
-	left: 50%;
-	width: 0%;
-	transform: translateX(-50%);
-	height: 3px;
+	left: 0;
+	width: 0;
+	height: 5px;
+	border-radius: 8px;
 	background-image: linear-gradient(to right, #ffd0a8, #ffb292, #ff9190, #ff6da0, #ff4fc0);
-	transition: 0.35s;
+	transition: 0.35s ease;
 }
 
 @keyframes fadeInRight {
-	0% {
+	from {
 		opacity: 0;
 		left: 20%;
 	}
 
-	100% {
+	to {
 		opacity: 1;
 		left: 0;
 	}
 }
 
 /* ========== Header ========== */
+
+/* ========== Footer ========== */
+
+#colophon.site-footer {
+	background: #050A3A;
+	color: white;
+	width: 100%;
+	max-width: none;
+	padding: 0px 0 30px 0px;
+	margin: 0 auto;
+}
+
+#colophon.site-footer .site-info {
+	border: none;
+	padding: 0 50px;
+}
+
+#colophon .site-info ul {
+	list-style: none;
+	text-align: right;
+}
+
+#colophon .site-info ul li:first-child {
+	padding-top: 60px;
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+
+
+#colophon span {
+	font-family: 'DM Sans', sans-serif;
+}
+
+
+/* ========== Footer ========== */
 
 .site-header > .site-logo {
 	width: 100%;
@@ -4228,6 +4289,10 @@ nav.hamburger-menu {
 .site-footer > .site-info .privacy-policy,
 .site-footer > .site-info .powered-by {
 	margin-top: calc(0.5 * var(--global--spacing-vertical));
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 @media only screen and (min-width: 822px) {
 
@@ -5359,6 +5424,10 @@ h1.page-title {
 }
 
 .footer-navigation {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 0 50px;
 	margin-top: calc(2 * var(--global--spacing-vertical));
 	margin-bottom: var(--global--spacing-vertical);
 	color: var(--footer--color-text);

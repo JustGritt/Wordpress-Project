@@ -18,13 +18,15 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 <nav class="hamburger-menu">
 
 	<img width="117" height="36" src="http://localhost:8000/wp-content/uploads/2022/07/cropped-Logo.png" id="menu-logo" class="custom-logo" alt="logo">
-
+	
 	<div class="button_container" id="toggle">
 		<span class="top"></span>
 		<span class="bottom"></span>
 	</div>
-
+	
 	<div class="overlay" id="overlay">
+		<input type="text" name="search" id="search" placeholder="Or try Search">
+
 		<nav class="overlay-menu">
 			<ul>
 			<?php wp_nav_menu(
