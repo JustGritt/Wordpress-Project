@@ -4310,8 +4310,72 @@ h1.entry-title {
 	list-style: none;
 }
 
+#contact .list-items ~ picture {
+	background: red;
+    width: 100vw;
+    position: relative;
+    left: calc(100% - 1487px + 160px);
+}
+
 
 /* ========== Contact ========== */
+
+/* ========== 404 ========== */
+
+.error404.custom-background {
+	background: #050A3A !important;
+}
+
+.error-404 .page-title {
+	margin-left: 160px;
+	font-size: 84px;
+	font-weight: 600;
+	line-height: 42px;
+	color: #fff;
+}
+
+.error-404 .search-form {
+	margin: 0;
+	padding-top: 70px;
+}
+
+
+
+.error-404 #search-form-1{
+	position: relative;
+	top: -55px;
+	border: none;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	transition: all .2s ease-in-out;
+}
+
+.error-404 #search-form-1:focus {
+	padding-bottom: 10px;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+
+.error-404 .search-form .search-submit {
+	display: none;
+}
+
+.error-404 .page-header {
+	border: none!important;
+}
+
+.error-404 .page-content {
+	color: #fff;
+	margin-left: 160px;
+}
+
+
+/* ========== 404 ========== */
+
+
 
 /* ========== Footer ========== */
 
@@ -4387,39 +4451,6 @@ h1.entry-title {
 .site-logo > .primary-menu-container .menu-wrapper {
 	list-style: none;
 }
-
-/* .site-logo > .primary-menu-container .menu-wrapper li {
-	justify-content: flex-end;
-	display: flex;
-}
-
-.site-logo > .primary-menu-container .menu-wrapper li a {
-	font-family: Mulish, sans-serif;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 70px;
-	position: relative;
-	width: fit-content;
-	text-align: right;
-}
-
-.site-logo > .primary-menu-container .menu-wrapper li a::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0;
-	right: 0;
-	height: 5px;
-	background-image: linear-gradient(to right, #ffd0a8, #ffb393, #ff9190, #ff6ea1, #ff51c0);
-	border-radius: 8px;
-	transition: all .4s ease-in-out;
-}
-
-.site-logo > .primary-menu-container .menu-wrapper li a:hover::after {
-	width: 100%;
-} */
 
 @media only screen and (max-width: 481px) {
 

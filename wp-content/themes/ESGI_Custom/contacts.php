@@ -33,7 +33,7 @@ get_header();
 	</div>
 
 	<picture>
-		<img src="" alt="">
+		<img loading="lazy" src="wp-content/uploads/2022/07/contact.png" alt="contact image" >
 	</picture>
 
 	<div class="formulaire">
