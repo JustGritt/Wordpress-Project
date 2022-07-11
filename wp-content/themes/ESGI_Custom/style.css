@@ -101,8 +101,8 @@ ESGI-Custom is distributed under the terms of the GNU GPL.
 :root {
 
 	/* Font Family */
-	--global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
-	--global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-primary: var( --font-headings, Mulish, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-secondary: var(--font-base, Mulish, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
 
 	/* Font Size */
 	--global--font-size-base: 1.25rem;
@@ -3889,7 +3889,8 @@ nav.hamburger-menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 50px;
+	padding: 0 160px;
+	background: #fff;
 }
 
 #menu-logo {
@@ -3968,7 +3969,7 @@ nav.hamburger-menu {
 .overlay input[name="search"] {
 	position: absolute;
 	top: 130px;
-	left: calc(50px - 8px);
+	left: calc(160px - 8px);
 	padding: 0 8px;
 	max-width: 300px;
 	width: 100%;
@@ -4054,6 +4055,13 @@ nav.hamburger-menu {
 	overflow: hidden;
 }
 
+.overlay ul li a:active,
+.overlay ul li a:focus {
+	outline: none;
+	background: transparent !important;
+	text-decoration: none !important;
+}
+
 .overlay ul li a:hover:after,
 .overlay ul li a:focus:after,
 .overlay ul li a:active:after {
@@ -4085,6 +4093,123 @@ nav.hamburger-menu {
 }
 
 /* ========== Header ========== */
+
+/* ========== Body ========== */
+
+.current-page-title {
+	margin-left: 160px;
+	max-width: 1191px;
+}
+
+.hero-image-container {
+	margin-left: auto !important;
+	margin-right: 0;
+}
+
+.hero-image-container .hero-image figure,
+.hero-image-container h3#index-subtitle,
+.hero-image-container h3#index-subtitle + p {
+	margin: 0;
+	padding: 0;
+}
+
+.hero-image-container h3#index-subtitle {
+	padding-top: 150px;
+	padding-bottom: 42px;
+}
+
+.hero-image-container h3#index-subtitle + p {
+	max-width: 914px;
+	color: #8A8A8A;
+}
+
+#hero-secondary p {
+    margin-left: 186px;
+    max-width: 640px;
+	padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#hero-secondary p:nth-child(even) {
+	font-weight: 600;
+	font-size: 47px;
+	margin-bottom: 0;
+
+}
+
+#hero-secondary p:nth-child(odd) {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 38px;
+	margin-bottom: 80px;
+	margin-top: 44px;
+	color: #8A8A8A;
+}
+
+/* ========== Body ========== */
+
+
+
+/* ========== Services ========== */
+
+#services-title{
+	font-weight: bold;
+	margin-left: 160px;
+	margin-bottom: 80px;
+}
+
+#services-images-container div figure{
+	margin: 0 !important;
+	width: calc(100% / 4);
+}
+
+#services-images-container div figure:hover img{
+	filter: grayscale(100%); 
+	transition-duration: .2s;
+}
+
+/* ========== Services ========== */
+
+/* ========== Partners ========== */
+
+header.entry-header.alignwide,
+h1.entry-title {
+	display: none;
+}
+
+#partners-title {
+	font-weight: bold;
+}
+
+#partners-title, #partners-logo-container {
+	margin-left: 160px;
+	margin-bottom: 80px;
+}
+
+#partners-logo-container {
+	margin-right: 160px;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#partners-logo-container div {
+	display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+	margin-bottom: 70px;
+}
+
+#partners-logo-container figure:hover img {
+	transition-duration: .2s;
+    filter: drop-shadow(0px 0px 0px black);
+
+}
+
+/* ========== Partners ========== */
 
 /* ========== Footer ========== */
 
