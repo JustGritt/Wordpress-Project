@@ -3891,6 +3891,7 @@ nav.hamburger-menu {
 	align-items: center;
 	padding: 0 160px;
 	background: #fff;
+	z-index: 100 !important;
 }
 
 #menu-logo {
@@ -4051,6 +4052,7 @@ nav.hamburger-menu {
 	display: block;
 	position: relative;
 	color: #FFF;
+	margin-bottom: 10px;
 	text-decoration: none;
 	overflow: hidden;
 }
@@ -4211,6 +4213,106 @@ h1.entry-title {
 
 /* ========== Partners ========== */
 
+/* ========== Team ========== */
+
+#team-title {
+	font-weight: bold;
+}
+
+#team-container div h2 {
+	font-weight: 600;
+	color: #050A3A;
+	font-size: 35px;
+}
+
+#team-container div p {
+	color: #8A8A8A;
+	font-size: 20px;
+	margin-bottom: 140px;
+}
+
+/* ========== Team ========== */
+
+/* ========== Service ========== */
+
+#services-title {
+	padding: 0;
+}
+
+#services .title, 
+#services .sub-text {
+	margin-left: 160px;
+}
+
+#services .title{
+	font-weight: 600;
+	font-size: 63px;
+	word-spacing: 3px;
+}
+
+#services .sub-text {
+	color: #8A8A8A;
+	font-size: 26px;
+	line-height: 42px;
+	max-width: 914px;
+	margin-top: 24px;
+	margin-bottom: 150px;
+}
+
+#services picture {
+	margin: 0;
+	padding: 0;
+}
+
+#services picture img {
+	width: 100%;
+	max-width: 100vw;
+	height: auto;
+}
+
+#main {
+	padding-bottom: 0;
+}
+
+/* ========== Service ========== */
+
+/* ========== Contact ========== */
+
+#contact {
+	margin: 0 160px;
+}
+
+#contact .title{
+	font-weight: 600;
+	font-size: 84px;
+}
+
+#contact .sub-text {
+	color: #8A8A8A;
+	font-size: 26px;
+	line-height: 42px;
+	max-width: 914px;
+	padding-top: 70px;
+	margin-bottom: 150px;
+}
+
+#contact .list-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 70px;
+	max-width: 1074px;
+	text-align: right;
+	margin-left: auto;
+}
+
+#contact .list-items ul {
+	list-style: none;
+}
+
+
+/* ========== Contact ========== */
+
 /* ========== Footer ========== */
 
 #colophon.site-footer {
@@ -4222,9 +4324,10 @@ h1.entry-title {
 	margin: 0 auto;
 }
 
+#colophon.site-footer .footer-navigation,
 #colophon.site-footer .site-info {
 	border: none;
-	padding: 0 50px;
+	padding: 0 160px;
 }
 
 #colophon .site-info ul {

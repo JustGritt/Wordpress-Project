@@ -11,17 +11,25 @@
 
 get_header();
 
-/* Start the Loop */
-while ( have_posts() ) :
-	the_post();
-	get_template_part( 'template-parts/content/content-page' );
-endwhile; // End of the loop.
 
-show_post('our-services');  
-show_post('our-partners');  
+if(is_page(27)) { # Partners page
+	get_template_part( 'template-parts/content/content-partners' );
+} 
+else if(is_page(8)) { # Blog page
+	show_post('our-partners');  
+} 
+else if(is_page(7)) { # Contacts page
+	print("zefhyzeiuh");
+	die();
+} 
+else {
+	get_template_part( 'template-parts/content/content-hero' );
+	get_template_part( 'template-parts/content/content-services' );
+	show_post('our-partners');  
+}
+
 
 get_footer();
-
 
 function show_post($path) {
 	$post = get_page_by_path($path);
