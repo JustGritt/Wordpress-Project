@@ -1,0 +1,955 @@
+# Translation of Themes - Spacious in French (France)
+# This file is distributed under the same license as the Themes - Spacious package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-12 08:22:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Spacious\n"
+
+#. Theme Name of the theme
+#: inc/admin/class-spacious-theme-review-notice.php:93
+#: inc/admin/class-spacious-welcome-notice.php:46 inc/functions.php:555
+#, gp-priority: high
+msgid "Spacious"
+msgstr "Spacious"
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:85
+msgid "Retina Logo"
+msgstr "Logo Retina"
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:76
+msgid "Different Logo for Retina Devices?"
+msgstr "Logo différent pour les appareils Retina ?"
+
+#: inc/customizer/options/content/class-spacious-customize-page-header-options.php:52
+msgid "Hide page/post header title"
+msgstr "Masquer le titre de l’en-tête de la page / de l’article"
+
+#: inc/customizer/options/content/class-spacious-customize-page-header-options.php:43
+msgid "Header Title"
+msgstr "Titre d’en-tête"
+
+#: header.php:50
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: inc/customizer/options/woocommerce/class-spacious-customize-woocommerce-sidebar-options.php:98
+msgid "This layout will be reflected in woocommerce Product page."
+msgstr "Cette mise en page sera reflétée dans la page du produit WooCommerce."
+
+#: inc/customizer/options/woocommerce/class-spacious-customize-woocommerce-sidebar-options.php:87
+msgid "Product Page Layout"
+msgstr "Mise en page de la page produit"
+
+#: inc/customizer/options/woocommerce/class-spacious-customize-woocommerce-sidebar-options.php:59
+msgid "This layout will be reflected in woocommerce archive page only."
+msgstr "Cette mise en page sera reflétée dans la page d’archive WooCommerce uniquement."
+
+#: inc/customizer/options/woocommerce/class-spacious-customize-woocommerce-sidebar-options.php:47
+msgid "Archive Page Layout"
+msgstr "Mise en page de la page d’archive"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:163
+msgid "Typography"
+msgstr "Typographie"
+
+#: inc/customizer/options/header/class-spacious-customize-primary-menu-options.php:81
+msgid "Display menu in one line"
+msgstr "Afficher le menu sur une seule ligne"
+
+#: inc/customizer/options/header/class-spacious-customize-primary-menu-options.php:71
+msgid "Menu Display"
+msgstr "Affichage du menu"
+
+#: inc/customizer/options/header/class-spacious-customize-header-button.php:56
+msgid "Button Link"
+msgstr "Lien de bouton"
+
+#: inc/customizer/options/header/class-spacious-customize-header-button.php:45
+msgid "Button Text"
+msgstr "Texte du bouton"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:232
+msgid "Header Button One"
+msgstr "En-tête du bouton un"
+
+#: inc/customizer/core/custom-controls/typography/class-spacious-typography-control.php:51
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/customizer/core/custom-controls/typography/class-spacious-typography-control.php:50
+msgid "Standard Fonts"
+msgstr "Polices standard"
+
+#: inc/admin/class-spacious-theme-review-notice.php:140
+#: inc/admin/class-spacious-upgrade-notice.php:95
+msgid "Maybe later"
+msgstr "Peut-être ultérieurement"
+
+#: inc/admin/meta-boxes.php:53
+msgid "No Sidebar Content Stretched"
+msgstr "Aucun contenu de colonne latérale étiré"
+
+#: inc/widgets/widgets.php:174
+msgid "Widget area for WooCommerce Pages."
+msgstr "Zone de widget pour les pages WooCommerce."
+
+#: inc/widgets/widgets.php:172
+msgid "Shop Sidebar"
+msgstr "Colonne latérale de la boutique"
+
+#: inc/customizer/options/woocommerce/class-spacious-customize-woocommerce-design-options.php:57
+msgid "Check to show WooCommerce cart icon on menu bar"
+msgstr "Cocher pour afficher l’icône du panier WooCommerce dans la barre de menus"
+
+#: inc/customizer/options/footer/class-spacious-customize-footer-widgets-area-options.php:51
+msgid "Choose the number of column for the footer widgetized areas."
+msgstr "Choisissez le nombre de colonnes pour les zones widgetisées du pied de page."
+
+#: inc/customizer/options/header/class-spacious-customize-header-button.php:66
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:115
+msgid "Check to show in new tab"
+msgstr "Cocher pour afficher dans un nouvel onglet"
+
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:86
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:85
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:84
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:83
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:56
+msgid "Check to activate social links area. You also need to activate the header top bar section in Header options to show this social links area"
+msgstr "Cochez pour activer la zone des liens sociaux. Vous devez également activer la section de la barre supérieure de l’en-tête dans les options de l’en-tête pour afficher cette zone de liens sociaux."
+
+#: inc/customizer/options/social/class-spacious-customize-social-icons-options.php:46
+msgid "Activate social links area"
+msgstr "Activer la zone des liens sociaux"
+
+#: inc/customizer/options/header/class-spacious-customize-primary-menu-options.php:57
+msgid "Show search icon in header."
+msgstr "Afficher l’icône de recherche dans l’en-tête."
+
+#: inc/customizer/options/header/class-spacious-customize-header-top-bar-options.php:81
+msgid "You can add phone numbers, other contact info here as you like. This box also accepts shortcodes."
+msgstr "Vous pouvez ajouter des numéros de téléphone, d’autres coordonnées ici comme vous le souhaitez. Cette case accepte également les codes courts."
+
+#: inc/customizer/options/header/class-spacious-customize-header-top-bar-options.php:66
+msgid "Header Info Text"
+msgstr "Texte d’informations d’en-tête"
+
+#: inc/customizer/options/header/class-spacious-customize-header-top-bar-options.php:56
+msgid "Check to show top header bar. The top header bar includes social icons area, small text area and menu area."
+msgstr "Cochez pour afficher la barre d’en-tête supérieure. La barre d’en-tête supérieure comprend une zone d’icônes sociales, une petite zone de texte et une zone de menu."
+
+#: inc/customizer/options/header/class-spacious-customize-header-top-bar-options.php:46
+msgid "Activate Header Top Bar"
+msgstr "Activer la barre supérieure de l’en-tête"
+
+#: inc/header-functions.php:96
+msgid "Total"
+msgstr "Total"
+
+#: functions.php:105
+msgid "Header Menu"
+msgstr "Menu en-Tête"
+
+#: inc/admin/class-spacious-admin.php:37
+msgid "Processing..."
+msgstr "En cours..."
+
+#: inc/customizer/options/header/class-spacious-customize-primary-header-options.php:51
+msgid "Choose the header display type that you want."
+msgstr "Choisir le type d’en-tête que vous voulez."
+
+#: inc/customizer/options/header/class-spacious-customize-primary-header-options.php:40
+msgid "Header Display Type"
+msgstr "Type d’en-tête"
+
+#: inc/related-posts.php:6
+msgid "You May Also Like"
+msgstr "Vous pourriez aussi aimer"
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:56
+msgid "Check to enable the author bio section just below the post."
+msgstr "Cochez pour activer la section bio de l’auteur juste en dessous du contenu."
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:118
+msgid "Related Posts By Tags"
+msgstr "Articles similaires par étiquettes"
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:117
+msgid "Related Posts By Categories"
+msgstr "Articles similaires par catégories"
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:114
+msgid "Related Posts Must Be Shown As:"
+msgstr "Articles similaires doivent être montré comme :"
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:104
+msgid "Check to activate the related posts"
+msgstr "Cochez pour activer les articles similaires"
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:94
+msgid "Related Posts"
+msgstr "Articles similaires"
+
+#. Template Name of the theme
+msgid "Page Builder Template"
+msgstr "Modèle de constructeur de page"
+
+#: inc/customizer/options/content/class-spacious-customize-page-options.php:51
+msgid "Check to enable the featured image in single page."
+msgstr "Cochez cette case pour activer l’image mise en avant sur une page unique."
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:82
+msgid "Check to enable the featured image in single post page."
+msgstr "Cochez cette case pour activer l’image mise en avant sur une page d’article unique."
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:72
+msgid "Featured Image In Single Post Page"
+msgstr "Image mise en avant sur une page d’article unique"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:81
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/customizer/options/header/class-spacious-customize-primary-menu-options.php:101
+msgid "Switch to new responsive menu."
+msgstr "Basculer vers le nouveau menu responsive."
+
+#: inc/customizer/options/header/class-spacious-customize-primary-menu-options.php:91
+msgid "Responsive Menu Style"
+msgstr "Style du menu responsive"
+
+#: functions.php:275
+msgid "Import Demo"
+msgstr "Import de la démonstration"
+
+#: inc/customizer/options/footer/class-spacious-customize-footer-widgets-area-options.php:41
+msgid "Footer Widgets Column"
+msgstr "Colonne de widgets de pied"
+
+#: inc/customizer/options/content/class-spacious-customize-single-post-options.php:46
+msgid "Author Bio"
+msgstr "Bio de l’auteur"
+
+#: inc/admin/class-spacious-dashboard.php:102
+msgid "Got theme support question?"
+msgstr "Question de support du thème ?"
+
+#: inc/admin/class-spacious-welcome-notice.php:26
+msgid "Get started with Spacious"
+msgstr "Commencer avec Spacious"
+
+#: inc/admin/class-spacious-notice.php:63
+#: inc/admin/class-spacious-notice.php:82
+#: inc/admin/class-spacious-welcome-notice.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors, on triche ?"
+
+#: inc/admin/class-spacious-notice.php:59
+#: inc/admin/class-spacious-notice.php:78
+#: inc/admin/class-spacious-theme-review-notice.php:164
+#: inc/admin/class-spacious-theme-review-notice.php:182
+#: inc/admin/class-spacious-welcome-notice.php:77
+#: inc/demo-import-migration.php:64 inc/demo-import-migration.php:82
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Action échouée. Actualisez la page et essayez à nouveau"
+
+#: functions.php:271
+msgid "Spacious Important Links"
+msgstr "Liens importants pour Spacious"
+
+#: functions.php:277
+msgid "Support Forum"
+msgstr "Forum de support"
+
+#: functions.php:196 functions.php:273
+msgid "Theme Info"
+msgstr "Info du thème"
+
+#: inc/functions.php:639 inc/related-posts.php:64
+msgid "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+msgstr "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+
+#. Template Name of the theme
+msgid "Contact Page Template"
+msgstr "Modèle de page contact"
+
+#. Template Name of the theme
+msgid "Business Template"
+msgstr "Modèle entreprise"
+
+#: sidebar-left.php:36 sidebar.php:39
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Recherche"
+
+#: functions.php:274
+msgid "View Demo"
+msgstr "Voir la démonstration"
+
+#: functions.php:276 inc/admin/class-spacious-dashboard.php:93
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:173
+msgid "Enter link to redirect slider when clicked"
+msgstr "Saisissez un lien pour rediriger le diaporama après un clic."
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:159
+msgid "Enter the button text. Default is \"Read more\""
+msgstr "Saisissez le texte du bouton. Par défaut « Lire la suite »"
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:145
+msgid "Enter your slider description."
+msgstr "Saisissez une description pour votre diaporama."
+
+#: functions.php:328 functions.php:333
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:131
+msgid "Enter title for your slider."
+msgstr "Saisissez un titre pour votre diaporama."
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:117
+msgid "Upload slider image."
+msgstr "Téléverser des images pour le diaporama."
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:80
+msgid "Check to disable slider in Posts Page"
+msgstr "Cochez pour désactiver le diaporama dans les articles"
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:66
+msgid "Disable slider in Posts page"
+msgstr "Désactiver le diaporama dans les articles"
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:52
+msgid "Check to activate slider."
+msgstr "Cochez pour activer le diaporama."
+
+#: inc/customizer/options/slider/class-spacious-customize-slider-options.php:43
+msgid "Activate slider"
+msgstr "Activer le diaporama"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:67
+msgid "Slider"
+msgstr "Diaporama"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:117
+#: inc/customizer/options/global/class-spacious-customize-colors-options.php:56
+msgid "Color Skin"
+msgstr "Jeu de couleur"
+
+#: inc/customizer/options/content/class-spacious-customize-blog-archive-options.php:59
+msgid "Blog Full Content"
+msgstr "Blog avec contenu entier"
+
+#: inc/customizer/options/content/class-spacious-customize-blog-archive-options.php:58
+msgid "Blog Image Alternate Medium"
+msgstr "Image de blog moyenne alternative"
+
+#: inc/customizer/options/content/class-spacious-customize-blog-archive-options.php:57
+msgid "Blog Image Medium"
+msgstr "Blog avec image moyenne"
+
+#: inc/customizer/options/content/class-spacious-customize-blog-archive-options.php:56
+msgid "Blog Image Large"
+msgstr "Blog avec grande image"
+
+#: inc/customizer/options/content/class-spacious-customize-blog-archive-options.php:43
+msgid "Blog Posts display type"
+msgstr "Type d’affichage de articles du blog"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:127
+msgid "Default layout for single posts only"
+msgstr "Mise en page par défaut des articles"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:93
+msgid "Default layout for pages only"
+msgstr "Mise en page par défaut des pages"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:59
+msgid "Default layout"
+msgstr "Mise en page par défaut"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:48
+msgid "Wide layout with content width of 978px"
+msgstr "Mise en page large avec une largeur de contenu de 978 pixels"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:47
+msgid "Wide layout with content width of 1218px"
+msgstr "Mise en page large avec une largeur de contenu de 1218 pixels"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:46
+msgid "Boxed layout with content width of 978px"
+msgstr "Mise en page encadrée avec une largeur de contenu de 978 pixels"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:45
+msgid "Boxed layout with content width of 1218px"
+msgstr "Mise en page encadrée avec une largeur de contenu de 1218 pixels"
+
+#: inc/customizer/options/global/class-spacious-customize-layout-options.php:42
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr "Choisissez la mise en page de votre site. Ce changement est répercuté sur le site entier."
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:144
+msgid "Site Layout"
+msgstr "Mise en page du site"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:311
+msgid "Design"
+msgstr "Conception"
+
+#: inc/customizer/options/header/class-spacious-customize-header-media-options.php:78
+msgid "Position Below: Display the Header image just below the site title and main menu part."
+msgstr "Position en-dessous : affichage de l’image d’en-tête juste au dessous du titre du site et du menu principal."
+
+#: inc/customizer/options/header/class-spacious-customize-header-media-options.php:77
+msgid "Position Above (Default): Display the Header image just above the site title and main menu part."
+msgstr "Position au-dessus (par défaut) : affichage de l’image d’en-tête juste au dessus du titre du site et du menu principal."
+
+#: inc/customizer/options/header/class-spacious-customize-header-media-options.php:43
+msgid "Header Image Position"
+msgstr "Position de l’image d’en-tête"
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:51
+msgid "Choose the option that you want."
+msgstr "Choisissez l’option que vous voulez."
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:57
+msgid "Disable"
+msgstr "Désactiver"
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:56
+msgid "Show Both"
+msgstr "Afficher les deux"
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:55
+msgid "Header Text Only"
+msgstr "Texte d’en-tête seulement"
+
+#: inc/customizer/options/header/class-spacious-customize-site-identity-options.php:54
+msgid "Header Logo Only"
+msgstr "Logo d’en-tête seulement"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:60
+msgid "Header"
+msgstr "En-tête"
+
+#: no-results.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semble que l’on ne trouve pas ce que vous cherchez. Peut-être que la recherche pourra vous aider."
+
+#: no-results.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères de recherche. Veuillez essayer avec d’autres termes."
+
+#: no-results.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre 1er article ? <a href=\"%1$s\">Commencez ici</a>."
+
+#: navigation.php:32
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: navigation.php:31
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: navigation.php:20
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: navigation.php:19
+msgid "&laquo; Previous"
+msgstr "&laquo; Précédent"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:38
+msgid "Description"
+msgstr "Description"
+
+#: functions.php:187 functions.php:249
+#: inc/widgets/class-spacious-recent-work-widget.php:14
+msgid "TG: Featured Widget"
+msgstr "TG : widget mis en avant"
+
+#: functions.php:187 functions.php:249
+#: inc/widgets/class-spacious-recent-work-widget.php:10
+msgid "Show your some pages as recent work. Best for Business Top or Bottom sidebar."
+msgstr "Affichez certaines pages comme travaux récents. Adapté pour la barre haute et basse Business"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:86
+msgid "Byline:"
+msgstr "Signature :"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:80
+msgid "Name:"
+msgstr "Nom :"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:76
+msgid "Testimonial Description"
+msgstr "Description du témoignage"
+
+#: functions.php:231 inc/widgets/class-spacious-testimonial-widget.php:15
+msgid "TG: Testimonial"
+msgstr "TG : témoignage"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:11
+msgid "Display Testimonial"
+msgstr "Afficher le témoignage"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:39
+msgid "Button Redirect Link:"
+msgstr "Lien de redirection du bouton :"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:35
+msgid "Button Text:"
+msgstr "Texte du bouton :"
+
+#: functions.php:195 inc/widgets/class-spacious-call-to-action-widget.php:32
+msgid "Call to Action Additional Text"
+msgstr "Texte additionnel d’appel à action"
+
+#: functions.php:194 inc/widgets/class-spacious-call-to-action-widget.php:30
+msgid "Call to Action Main Text"
+msgstr "Texte principal d’appel à l’action"
+
+#: functions.php:186 functions.php:248
+#: inc/widgets/class-spacious-call-to-action-widget.php:14
+msgid "TG: Call To Action Widget"
+msgstr "TG : widget d’appel à l’action"
+
+#: functions.php:186 functions.php:248
+#: inc/widgets/class-spacious-call-to-action-widget.php:10
+msgid "Use this widget to show the call to action section."
+msgstr "Utilisez ce widget pour afficher la section d’appel à action."
+
+#: functions.php:185 functions.php:247
+#: inc/widgets/class-spacious-service-widget.php:14
+msgid "TG: Services"
+msgstr "TG : services"
+
+#: functions.php:185 functions.php:247
+#: inc/widgets/class-spacious-service-widget.php:10
+msgid "Display some pages as services. Best for Business Top or Bottom sidebar."
+msgstr "Afficher certaines pages comme des services. Adapté pour la colonne latérale haute et basse Business."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:45
+#: inc/widgets/class-spacious-featured-single-page-widget.php:52
+msgid "Show Image After Title"
+msgstr "Afficher l’image après le titre"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:43
+#: inc/widgets/class-spacious-featured-single-page-widget.php:50
+msgid "Show Image Before Title"
+msgstr "Afficher l’image avant le titre"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:38
+msgid "Remove Featured image"
+msgstr "Retirer l’image mise en avant"
+
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:269
+#: inc/widgets/class-spacious-featured-single-page-widget.php:33
+#: inc/widgets/class-spacious-recent-work-widget.php:44
+#: inc/widgets/class-spacious-service-widget.php:30
+msgid "Page"
+msgstr "Page"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:30
+msgid "Displays the title of the Page if title input is empty."
+msgstr "Afficher le titre de la page si le champ titre est vide."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:27
+#: inc/widgets/class-spacious-recent-work-widget.php:35
+#: inc/widgets/class-spacious-testimonial-widget.php:71
+msgid "Title:"
+msgstr "Titre :"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:24
+msgid "Suitable for Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+msgstr "Adapté pour la barre haute d’accueil, la barre basse à gauche de l’accueil et la colonne latérale."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:11
+msgid "Display Featured Single Page"
+msgstr "Afficher une page mise en avant"
+
+#: inc/widgets/widgets.php:161
+msgid "Shows widgets at footer sidebar four."
+msgstr "Afficher les widgets dans la barre de pied 4"
+
+#: inc/widgets/widgets.php:159
+msgid "Footer Sidebar Four"
+msgstr "Barre de pied 4"
+
+#: inc/widgets/widgets.php:148
+msgid "Shows widgets at footer sidebar three."
+msgstr "Afficher les widgets dans la barre de pied 3"
+
+#: inc/widgets/widgets.php:146
+msgid "Footer Sidebar Three"
+msgstr "Barre de pied 3"
+
+#: inc/widgets/widgets.php:135
+msgid "Shows widgets at footer sidebar two."
+msgstr "Afficher les widgets dans la barre de pied 2"
+
+#: inc/widgets/widgets.php:133
+msgid "Footer Sidebar Two"
+msgstr "Barre de pied 2"
+
+#: inc/widgets/widgets.php:120
+msgid "Shows widgets at footer sidebar one."
+msgstr "Afficher les widgets dans la barre de pied 1"
+
+#: inc/widgets/widgets.php:118
+msgid "Footer Sidebar One"
+msgstr "Barre de pied 1"
+
+#: inc/widgets/widgets.php:109
+msgid "Shows widgets on Error 404 page."
+msgstr "Afficher les widgets sur la page d’erreur 404"
+
+#: inc/widgets/widgets.php:107
+msgid "Error 404 Page Sidebar"
+msgstr "Barre de page d’erreur 404"
+
+#: inc/widgets/widgets.php:98
+msgid "Shows widgets on Contact Page Template."
+msgstr "Afficher les widgets sur le modèle de page de contact"
+
+#: inc/widgets/widgets.php:96
+msgid "Contact Page Sidebar"
+msgstr "Barre de page de contact"
+
+#: functions.php:245 inc/widgets/widgets.php:87
+msgid "Shows widgets on Business Page Template Bottom Section."
+msgstr "Afficher les widgets sur la section basse du modèle de page Business"
+
+#: functions.php:244 inc/widgets/widgets.php:85
+msgid "Business Bottom Sidebar"
+msgstr "Barre Business de bas"
+
+#: functions.php:225 inc/widgets/widgets.php:75
+msgid "Shows widgets on Business Page Template Middle Section Right Half."
+msgstr "Afficher les widgets sur la moitié droite du milieu de la section du modèle de page Business"
+
+#: functions.php:224 inc/widgets/widgets.php:73
+msgid "Business Middle Right Sidebar"
+msgstr "Barre Business de milieu droite"
+
+#: functions.php:208 functions.php:225 inc/widgets/widgets.php:64
+#: inc/widgets/widgets.php:75
+msgid "Suitable widget: TG: Testimonial, TG: Featured Single Page"
+msgstr "Widgets adaptés : TG : témoignage, TH : page mise en avant"
+
+#: functions.php:208 inc/widgets/widgets.php:64
+msgid "Shows widgets on Business Page Template Middle Section Left Half."
+msgstr "Afficher les widgets sur la moitié gauche du milieu de la section du modèle de page Business"
+
+#: functions.php:207 inc/widgets/widgets.php:62
+msgid "Business Middle Left Sidebar"
+msgstr "Barre Business de milieu gauche"
+
+#: functions.php:183 functions.php:245 inc/widgets/widgets.php:53
+#: inc/widgets/widgets.php:87
+msgid "Suitable widget: TG: Services, TG: Call To Action Widget, TG: Featured Widget"
+msgstr "Widgets adaptés : TG : services, TG : widget appel à l’action, TG : widget mis en avant"
+
+#: functions.php:183 inc/widgets/widgets.php:53
+msgid "Shows widgets on Business Page Template Top Section."
+msgstr "Afficher les widgets sur la section haute du modèle de page Business"
+
+#: functions.php:182 inc/widgets/widgets.php:51
+msgid "Business Top Sidebar"
+msgstr "Barre Business de haut"
+
+#: inc/widgets/widgets.php:42
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Affichage des widgets dans la section d’en-tête juste au dessus du menu principal de navigation."
+
+#: inc/widgets/widgets.php:40
+msgid "Header Sidebar"
+msgstr "Barre d’en-tête"
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr "Afficher les widgets sur le côté gauche"
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr "Afficher les widgets sur le côté droit"
+
+#: inc/customizer/class-spacious-customizer-partials.php:49
+#: inc/customizer/class-spacious-customizer-partials.php:56
+#: inc/header-functions.php:314 inc/header-functions.php:320
+msgid "You are here: "
+msgstr "Vous êtes ici :"
+
+#: inc/header-functions.php:285
+msgid "Search Results"
+msgstr "Résultats de recherche :"
+
+#: inc/header-functions.php:283
+msgid "Page NOT Found"
+msgstr "Page NON trouvée"
+
+#: inc/header-functions.php:279 sidebar-left.php:29 sidebar.php:32
+msgid "Archives"
+msgstr "Archives"
+
+#: inc/header-functions.php:273
+msgid "Links"
+msgstr "Liens"
+
+#: inc/header-functions.php:270
+msgid "Quotes"
+msgstr "Citations"
+
+#: inc/header-functions.php:267
+msgid "Videos"
+msgstr "Vidéos"
+
+#: inc/header-functions.php:264
+msgid "Images"
+msgstr "Images"
+
+#: inc/header-functions.php:261
+msgid "Asides"
+msgstr "Notes"
+
+#: inc/header-functions.php:258
+msgid "Year: %s"
+msgstr "Année : %s"
+
+#: inc/header-functions.php:255
+msgid "Month: %s"
+msgstr "Mois : %s"
+
+#: inc/header-functions.php:252
+msgid "Day: %s"
+msgstr "Jour : %s"
+
+#: inc/header-functions.php:244
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: inc/functions.php:557
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Copyright &copy; %1$s %2$s."
+
+#: inc/functions.php:553
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:530
+msgid "Reply"
+msgstr "Répondre"
+
+#: inc/functions.php:524
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: inc/functions.php:518
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr "<a class=\"comment-permalink\" href=\"%1$s\">Permalien</a>"
+
+#: inc/functions.php:516
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: inc/functions.php:513
+msgid "Post author"
+msgstr "Auteur de l’article"
+
+#: inc/functions.php:498
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: inc/functions.php:498
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: inc/functions.php:472
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:468
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: inc/functions.php:463 navigation.php:40
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/functions.php:462 navigation.php:39
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:458
+msgid "Post navigation"
+msgstr "Navigation d’article"
+
+#: inc/customizer/core/custom-controls/typography/class-spacious-typography-control.php:590
+msgid "Italic"
+msgstr "Italique"
+
+#: inc/customizer/core/custom-controls/typography/class-spacious-typography-control.php:587
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/customizer/core/custom-controls/background/class-spacious-background-control.php:139
+msgid "Repeat All"
+msgstr "Répéter dans toutes les directions"
+
+#: inc/customizer/core/custom-controls/background/class-spacious-background-control.php:145
+msgid "Repeat Vertically"
+msgstr "Répéter verticalement"
+
+#: inc/customizer/core/custom-controls/background/class-spacious-background-control.php:142
+msgid "Repeat Horizontally"
+msgstr "Répéter horizontalement"
+
+#: inc/customizer/core/custom-controls/background/class-spacious-background-control.php:136
+msgid "No Repeat"
+msgstr "Pas de répétition"
+
+#: inc/customizer/core/custom-controls/background/class-spacious-background-control.php:118
+msgid "Remove"
+msgstr "Retirer"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Pas de barre, contenu centré"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Pas de barre (pleine largeur)"
+
+#: inc/admin/meta-boxes.php:38 inc/widgets/widgets.php:29
+msgid "Left Sidebar"
+msgstr "Barre à gauche"
+
+#: inc/admin/meta-boxes.php:33 inc/widgets/widgets.php:18
+msgid "Right Sidebar"
+msgstr "Barre à droite"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Mise en page par défaut"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Choix de mise en page"
+
+#: inc/header-functions.php:341
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:107 functions.php:355
+msgid "Footer Menu"
+msgstr "Menu du pied"
+
+#: functions.php:106 functions.php:343
+#: inc/customizer/class-spacious-customizer-register-sections-panels.php:216
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: content-single.php:34
+msgid "Tagged on: "
+msgstr "Étiqueté avec :"
+
+#: functions.php:330 functions.php:335
+#: inc/customizer/class-spacious-customizer-partials.php:30
+#: inc/functions.php:662 inc/header-functions.php:166
+#: inc/widgets/class-spacious-featured-single-page-widget.php:104
+#: inc/widgets/class-spacious-service-widget.php:96
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: content-page.php:39 inc/functions.php:656
+msgid "Edit"
+msgstr "Modifier"
+
+#: inc/functions.php:653
+msgid "Comments Off"
+msgstr "Commentaires fermés"
+
+#: inc/functions.php:653
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: inc/functions.php:653
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/functions.php:653
+msgid "No Comments"
+msgstr "0 Commentaires"
+
+#: content-blog-full-content.php:23 content-page.php:30 content-single.php:42
+msgid "Pages:"
+msgstr "Pages :"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Commentaires fermés."
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Navigation de commentaire"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un avis sur « %2$s »"
+msgstr[1] "%1$s avis sur « %2$s »"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "Il semble que rien ne soit trouvé à cet emplacement. Essayer la recherche ci-dessous."
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups, la page ne peut pas être trouvée."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://themegrill.com/themes/spacious"
+msgstr "https://themegrill.com/themes/spacious"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

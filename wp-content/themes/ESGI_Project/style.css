@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mulish&display=swap');
+/*
+Theme Name: ESGI_Sombie
+Text Domain: ESGI_Sombie
+Version: 1.0
+Tested up to: 5.9
+Requires at least: 5.6
+Requires PHP: 7.3
+Description: Theme ESGI
+Author: Alexis, Alex Dieudonne, Charles
+Author URI: https://voltajazz.com/
+Theme URI: https://voltajazz.com/ThemeESGI
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+
+html {
+  --body-bg: #FFF;
+  --text-color: #000;
+  --main-color: #3F51B5;
+  --light-grey: #F0F0F0;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+}
+
+body.dark {
+  --body-bg: #000;
+  --text-color: #FFF;
+}
+
+

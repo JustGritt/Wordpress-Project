@@ -1,0 +1,162 @@
+@function rem($val){
+	@return $val / 16 * 1rem;
+}
+
+@mixin text1{
+	font-family: $font2;
+	font-size: rem(25);
+	letter-spacing: 0.1em;
+}
+
+@mixin text2{
+	font-family: $font3;
+	font-size: rem(16);
+	letter-spacing: 0;
+	line-height: rem(27);
+}
+
+@mixin text3{
+	font-family: $font2;
+	font-size: rem(16);
+	letter-spacing: 0.1em;
+}
+
+@mixin text4{
+	font-size: rem(13);
+	line-height: rem(21);
+	font-weight: 400;
+	font-family: $font2;
+	letter-spacing: 0.05em
+}
+
+@mixin text5{
+	font-family: $font1;
+	font-size: rem(16);
+	letter-spacing: 0.03em;
+	line-height: rem(27);
+}
+
+@mixin text6{
+	color: var(--grey);
+	font-size: rem(13);
+	line-height: 1.75;
+	letter-spacing: 0.05em;
+	font-family: $font2;
+}
+
+@mixin reset-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@mixin social-list{
+	@include reset-list;
+	display: flex;
+	align-items: center;
+	gap: rem(25);
+	a{	
+		svg{
+			height: rem(18);
+			path{
+				fill: var(--text-color);
+				transition: fill 0.3s;
+			}
+		}
+		&:hover{
+			svg{
+				path{
+					fill: var(--main-color);
+				}
+			}
+		}
+	}
+}
+
+$text-color: #000;
+$main-color: #3F51B5;
+$white: #FFF;
+$light-grey: #F0F0F0;
+
+html{
+	--body-bg: #{$white};
+	--text-color: #{$text-color};
+	--main-color: #{$main-color};
+	--light-grey: #{$light-grey};
+}
+
+body{
+	font-family: $font1;
+	background-color: var(--body-bg);
+	color: var(--text-color);
+}
+
+body.dark{
+	--body-bg: #{$text-color};
+	--text-color: #{$white};
+}
+
+
+.page-title, .post-title{
+	@include text1;
+	text-align: center;
+	margin-bottom: rem(34);
+}
+
+.page-content, .post-content{
+	@include text5;
+	a{
+		color: var(--main-color);
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.single-post{
+	header{
+		img{
+			object-fit: cover;
+			object-position: center;
+			border-radius: 800px;
+			width: rem(32);
+			height: rem(32);
+			margin-right: rem(10);
+		}
+		.post-meta{
+			font-family: $font2;
+			font-size: rem(13);
+			line-height: rem(21);
+			letter-spacing: 0.05em;
+			text-align: center;
+			margin-bottom: rem(34);
+			time{
+				margin-left: rem(42);
+			}
+		}
+	}
+	.post-image{
+		margin-bottom: rem(34);
+		img{
+			width: 100%;
+			max-height: rem(300);
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}
+
+.social-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: rem(32) 0;
+	h1{
+		@include text4;
+	}
+	ul{
+		@include social-list;
+	}
+}
+

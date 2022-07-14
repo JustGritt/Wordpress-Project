@@ -17,11 +17,13 @@ if(is_page(27)) { # Partners page
 } 
 else if(is_page(8)) { # Blog page
 	show_post('our-partners');  
-} 
+}
+
 else if(is_page(7)) { # Contacts page
 	print("zefhyzeiuh");
 	die();
-} 
+}
+
 else {
 	get_template_part( 'template-parts/content/content-hero' );
 	get_template_part( 'template-parts/content/content-services' );

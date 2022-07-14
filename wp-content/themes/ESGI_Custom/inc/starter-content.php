@@ -20,6 +20,7 @@
  */
 function ESGI_Custom_get_starter_content() {
 
+   // var_dump(get_sub_field());
 	// Define and register starter content to showcase the theme on new sites.
 	$starter_content = array(
 
@@ -27,7 +28,7 @@ function ESGI_Custom_get_starter_content() {
 		'posts'     => array(
 			'front' => array(
 				'post_type'    => 'page',
-				'post_title'   => esc_html_x( 'Create your website with blocks', 'Theme starter content', 'twentytwentyone' ),
+				'post_title'   =>  esc_html_x('Create your website with blocks', 'Theme starter content', 'twentytwentyone' ),
 				'post_content' => '
 					<!-- wp:heading {"align":"wide","fontSize":"gigantic","style":{"typography":{"lineHeight":"1.1"}}} -->
 					<h2 class="alignwide has-text-align-wide has-gigantic-font-size" style="line-height:1.1">' . esc_html_x( 'Create your website with blocks', 'Theme starter content', 'twentytwentyone' ) . '</h2>
